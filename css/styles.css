@@ -160,12 +160,13 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: white;
   text-decoration: none;
   background-color: transparent;
 }
+
 a:hover {
-  color: #467370;
+  color: orangered;
   text-decoration: underline;
 }
 
@@ -2727,8 +2728,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #64a19d;
-  border-color: #64a19d;
+  color: orangered;
+  border-color: orangered;
 }
 .btn-outline-primary:hover {
   color: #fff;
@@ -4000,7 +4001,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #64a19d;
+  background-color: orangered !important;
 }
 
 .nav-fill > .nav-link,
@@ -4031,6 +4032,7 @@ input[type=button].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
+
 .navbar .container,
 .navbar .container-fluid,
 .navbar .container-sm,
@@ -4050,6 +4052,7 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  color: white !important;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4091,6 +4094,7 @@ input[type=button].btn-block {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
@@ -10124,8 +10128,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: white !important;
+  border: 2px solid orangered;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -10179,15 +10183,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: white !important;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: orangered;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: white !important;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid orangered !important;
   }
 }
 
@@ -10207,12 +10211,14 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/transparent-sun.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/thesungiphy.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
+  background-color: black;
 }
+
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
