@@ -13,6 +13,21 @@ export default class Poems {
         <div class="d-flex justify-content-center mb-4">
           <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
         </div>
+
+        <div class="col d-flex justify-content-center mb-4">
+            <a href="https://www.amazon.com/gp/product/1792611633"
+                target="_blank">
+                <button type="button" class="btn btn-warning shadow amazon-btn px-3 mr-4">
+                    Buy on Amazon
+                </button>
+            </a>
+            <a class="btn btn-warning shadow"
+                href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                target="_blank" role="button">
+                Tip Bitcoin
+            </a>
+        </div>
+
         <div class="row align-items-center gutters mb-4 mb-lg-5">
             <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-sm-0" src="assets/images/${this.poemsArray[0].img}" alt="" /></div>
             <div class="col-xl-6 col-lg-7 py-5">
@@ -43,7 +58,7 @@ export default class Poems {
       </div>
       </a>
       <!-- Modal -->
-        <div class="modal fade fullscreen" id="${this.poemsArray[i].id}" tabindex="-1" role="dialog"
+        <div class="modal fade" id="${this.poemsArray[i].id}" tabindex="-1" role="dialog"
             aria-labelledby="${this.poemsArray[i].title}" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -59,21 +74,22 @@ export default class Poems {
                         </p>
                     </div>
                     <div class="modal-footer">
-                      
-                          <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
-                     
-                        <a href="https://www.amazon.com/gp/product/1792611633"
-                            target="_blank">
-                            <button type="button" class="btn btn-warning shadow amazon-btn px-3">
-                                Buy on<i class="ml-2 fab fa-1x fa-amazon"></i>
-                            </button>
-                        </a>
-                        <a class="btn btn-warning shadow"
-                            href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                            target="_blank" role="button">
-                            Donate
-                            <i class="ml-1 fab fa-bitcoin"></i>
-                        </a>
+                        <div class="col-sm-12 d-flex justify-content-center mb-4">
+                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="https://www.amazon.com/gp/product/1792611633"
+                                target="_blank">
+                                <button type="button" class="btn btn-warning shadow amazon-btn px-3 mr-4">
+                                    Buy on Amazon
+                                </button>
+                            </a>
+                            <a class="btn btn-warning shadow"
+                                href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                                target="_blank" role="button">
+                                Tip Bitcoin
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,7 +115,7 @@ export default class Poems {
         </div>
         </a>
         <!-- Modal -->
-        <div class="modal fade fullscreen" id="${this.poemsArray[x].id}" tabindex="-1" role="dialog"
+        <div class="modal fade" id="${this.poemsArray[x].id}" tabindex="-1" role="dialog"
             aria-labelledby="${this.poemsArray[x].title}" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -115,18 +131,22 @@ export default class Poems {
                         </p>
                     </div>
                     <div class="modal-footer">
-                        <a href="https://www.amazon.com/gp/product/1792611633"
-                            target="_blank">
-                            <button type="button" class="btn btn-warning shadow amazon-btn px-3">
-                                Buy on<i class="ml-2 fab fa-1x fa-amazon"></i>
-                            </button>
-                        </a>
-                        <a class="btn btn-warning shadow"
-                            href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                            target="_blank" role="button">
-                            Donate
-                            <i class="ml-1 fab fa-bitcoin"></i>
-                        </a>
+                        <div class="col-sm-12 d-flex justify-content-center mb-4">
+                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[x].audio}" type="audio/wav"></audio>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="https://www.amazon.com/gp/product/1792611633"
+                                target="_blank">
+                                <button type="button" class="btn btn-warning shadow amazon-btn px-3 mr-4">
+                                    Buy on Amazon
+                                </button>
+                            </a>
+                            <a class="btn btn-warning shadow"
+                                href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                                target="_blank" role="button">
+                                Tip Bitcoin
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
