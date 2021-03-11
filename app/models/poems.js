@@ -85,7 +85,7 @@ export default class Poems {
                             <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
                                 target="_blank">
                                 <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
-                                Tip Bitcoin<i class="ml-2 py-0 fab fa-bitcoin"></i>
+                                Tip Bitcoin
                                 </button>
                             </a>
                         </div>
@@ -143,7 +143,7 @@ export default class Poems {
                             <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
                                 target="_blank">
                                 <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
-                                Tip Bitcoin<i class="ml-2 py-0 fab fa-bitcoin"></i>
+                                Tip Bitcoin
                                 </button>
                             </a>
                         </div>
