@@ -10,7 +10,7 @@ export default class Poems {
           <h4 style="color: orangered;">Featured poem, listen now!</h4>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
+          <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
         </div>
 
         <div class="d-flex justify-content-center mb-4">
