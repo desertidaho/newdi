@@ -71,8 +71,8 @@ export default class Poems {
                         </p>
                     </div>
                     <div class="modal-footer">
-                        <div class="col-sm-12 d-flex justify-content-center mb-4">
-                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
+                        <div class="col-sm-12 d-flex justify-content-center mt-3 mb-4">
+                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 10px orangered;"><source src="assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
                         </div>
                         <div class="col d-flex justify-content-center">
                             <a href="https://www.amazon.com/gp/product/1792611633"
@@ -128,8 +128,8 @@ export default class Poems {
                         </p>
                     </div>
                     <div class="modal-footer">
-                        <div class="col-sm-12 d-flex justify-content-center mb-4">
-                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="assets/audio/${this.poemsArray[x].audio}" type="audio/wav"></audio>
+                        <div class="col-sm-12 d-flex justify-content-center mt-3 mb-4">
+                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 10px orangered;"><source src="assets/audio/${this.poemsArray[x].audio}" type="audio/wav"></audio>
                         </div>
                         <div class="col d-flex justify-content-center">
                             <a href="https://www.amazon.com/gp/product/1792611633"
