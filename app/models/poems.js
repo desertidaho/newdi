@@ -14,7 +14,7 @@ export default class Poems {
           <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
         </div>
 
-        <div class="col d-flex justify-content-center mb-4">
+        <div class="d-flex justify-content-center mb-4">
             <a href="https://www.amazon.com/gp/product/1792611633"
                 target="_blank">
                 <button type="button" class="btn btn-warning shadow amazon-btn px-3 mr-4">
@@ -30,7 +30,7 @@ export default class Poems {
 
         <div class="row align-items-center gutters mb-4 mb-lg-5">
             <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-sm-0" src="assets/images/${this.poemsArray[0].img}" alt="" /></div>
-            <div class="col-xl-6 col-lg-7 py-5">
+            <div class="col-xl-6 col-lg-7 py-auto">
                 <div class="featured-text px-auto" style="white-space: wrap;">
                     <h4>${this.poemsArray[0].title}</h4>
                     <p class="mb-0 small">${this.poemsArray[0].poem}</p>
@@ -43,8 +43,8 @@ export default class Poems {
       template += `
       <!-- Picture Left Row-->
       <a data-toggle="modal" data-target="#${this.poemsArray[i].id}">
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0" style="height: 40vh;">
-          <div class="col-lg-6"><img class="img-fluid" src="/assets/images/${this.poemsArray[i].img}" alt="" style="width: 100% !important; height: 100% !important;" /></div>
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0" style="height: auto;">
+          <div class="col-lg-6"><img class="img-fluid" src="assets/images/${this.poemsArray[i].img}" alt="" style="width: 100% !important; height: 100% !important;" /></div>
           <div class="col-lg-6 order-lg-first">
               <div class="bg-black text-center h-100 project">
                   <div class="d-flex h-100">
@@ -75,7 +75,7 @@ export default class Poems {
                     </div>
                     <div class="modal-footer">
                         <div class="col-sm-12 d-flex justify-content-center mb-4">
-                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
+                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
                         </div>
                         <div class="col d-flex justify-content-center">
                             <a href="https://www.amazon.com/gp/product/1792611633"
@@ -100,8 +100,8 @@ export default class Poems {
         template += `
         <!-- Picture Right Row-->
         <a data-toggle="modal" data-target="#${this.poemsArray[x].id}">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0" style="height: 40vh;">
-            <div class="col-lg-6"><img class="img-fluid" src="/assets/images/${this.poemsArray[x].img}" alt="" style="width: 100% !important; height: 100% !important;" /></div>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0" style="height: auto;">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/images/${this.poemsArray[x].img}" alt="" style="width: 100% !important; height: 100% !important;" /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
@@ -132,7 +132,7 @@ export default class Poems {
                     </div>
                     <div class="modal-footer">
                         <div class="col-sm-12 d-flex justify-content-center mb-4">
-                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="/assets/audio/${this.poemsArray[x].audio}" type="audio/wav"></audio>
+                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="assets/audio/${this.poemsArray[x].audio}" type="audio/wav"></audio>
                         </div>
                         <div class="col d-flex justify-content-center">
                             <a href="https://www.amazon.com/gp/product/1792611633"
