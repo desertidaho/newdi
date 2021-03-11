@@ -15,14 +15,15 @@ export default class Poems {
         <div class="d-flex justify-content-center mb-4">
             <a href="https://www.amazon.com/gp/product/1792611633"
                 target="_blank">
-                <button type="button" class="btn btn-warning shadow amazon-btn px-3 mr-4">
+                <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
                     Buy on Amazon
                 </button>
             </a>
-            <a class="btn btn-warning shadow"
-                href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                target="_blank" role="button">
-                Tip Bitcoin
+            <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                target="_blank">
+                <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
+                    Tip Bitcoin<i class="ml-2 py-0 fab fa-bitcoin"></i>
+                </button>
             </a>
         </div>
         <div class="row align-items-center gutters mb-4 mb-lg-5">
@@ -81,10 +82,11 @@ export default class Poems {
                                     Buy on Amazon
                                 </button>
                             </a>
-                            <a class="btn btn-warning shadow"
-                                href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                                target="_blank" role="button">
-                                Tip Bitcoin
+                            <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                                target="_blank">
+                                <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
+                                Tip Bitcoin<i class="ml-2 py-0 fab fa-bitcoin"></i>
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -138,10 +140,11 @@ export default class Poems {
                                     Buy on Amazon
                                 </button>
                             </a>
-                            <a class="btn btn-warning shadow"
-                                href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                                target="_blank" role="button">
-                                Tip Bitcoin
+                            <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                                target="_blank">
+                                <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
+                                Tip Bitcoin<i class="ml-2 py-0 fab fa-bitcoin"></i>
+                                </button>
                             </a>
                         </div>
                     </div>
