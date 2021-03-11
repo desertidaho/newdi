@@ -7,12 +7,11 @@ export default class Poems {
     let featured = `
         <!-- Featured Project Row-->
         <div class="d-flex justify-content-center mb-3">
-          <h4 style="color: orangered;">Featured poem, listen now!</h4>
+          <h4 style="color: orangered; text-shadow: 1px 1px gray;">Featured poem, listen now!</h4>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <audio controls preload="auto" style="box-shadow: 0px 0px 0px 2px orangered;"><source src="assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
+          <audio controls preload="auto"><source src="assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
         </div>
-
         <div class="d-flex justify-content-center mb-4">
             <a href="https://www.amazon.com/gp/product/1792611633"
                 target="_blank">
@@ -26,13 +25,12 @@ export default class Poems {
                 Tip Bitcoin
             </a>
         </div>
-
         <div class="row align-items-center gutters mb-4 mb-lg-5">
             <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-sm-0" src="assets/images/${this.poemsArray[0].img}" alt="" /></div>
             <div class="col-xl-6 col-lg-7 py-auto">
                 <div class="featured-text px-auto" style="white-space: wrap;">
-                    <h4>${this.poemsArray[0].title}</h4>
-                    <p class="mb-0 small">${this.poemsArray[0].poem}</p>
+                    <h4 class="text-white">${this.poemsArray[0].title}</h4>
+                    <p class="mb-0 text-white small">${this.poemsArray[0].poem}</p>
                 </div>
             </div>
         </div>
@@ -46,7 +44,7 @@ export default class Poems {
           <div class="col-lg-6"><img class="img-fluid" src="assets/images/${this.poemsArray[i].img}" alt="" style="width: 100% !important; height: 100% !important;" /></div>
           <div class="col-lg-6 order-lg-first">
               <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
+                  <div class="d-flex h-100" style="background-image: linear-gradient(to bottom, black 60%, #0d0d0d);">
                       <div class="project-text w-100 mt-5 text-center text-md-right">
                           <h4 class="text-white">${this.poemsArray[i].title}</h4>
                           <hr class="d-none d-lg-block mb-0 mr-0" />
@@ -103,7 +101,7 @@ export default class Poems {
             <div class="col-lg-6"><img class="img-fluid" src="assets/images/${this.poemsArray[x].img}" alt="" style="width: 100% !important; height: 100% !important;" /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
+                    <div class="d-flex h-100" style="background-image: linear-gradient(to bottom, black 60%, #0d0d0d);">
                         <div class="project-text w-100 mt-5 text-center text-md-left">
                             <h4 class="text-white">${this.poemsArray[x].title}</h4>
                             <hr class="d-none d-lg-block mb-0 ml-0" />
