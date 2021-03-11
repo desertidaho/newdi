@@ -28,7 +28,7 @@ export default class Poems {
         <div class="row align-items-center gutters mb-4 mb-lg-5">
             <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-sm-0" src="assets/images/${this.poemsArray[0].img}" alt="" /></div>
             <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 py-auto">
-                <div class="featured-text pl-3 pr-1">
+                <div class="featured-text pl-1 pl-lg-3 pr-1">
                     <h4 class="text-white">${this.poemsArray[0].title}</h4>
                     <p class="mb-5 mb-lg-1 text-white xsmall" style="font-size: 0.7rem;">${this.poemsArray[0].poem}</p>
                 </div>
