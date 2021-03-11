@@ -7,7 +7,7 @@ export default class Poems {
     let featured = `
         <!-- Featured Project Row-->
         <div class="d-flex justify-content-center mb-3">
-          <h4 style="color: orangered; text-shadow: 1px 1px #0d0d0d;">Featured poem, listen now.</h4>
+          <h4 class="text-white">Featured poem, <span style="color: orangered; text-shadow: 1px 1px #0d0d0d;">listen now.</span></h4>
         </div>
         <div class="d-flex justify-content-center mb-4">
           <audio controls preload="auto"><source src="assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
@@ -27,10 +27,10 @@ export default class Poems {
         </div>
         <div class="row align-items-center gutters mb-4 mb-lg-5">
             <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-sm-0" src="assets/images/${this.poemsArray[0].img}" alt="" /></div>
-            <div class="col-xl-6 col-lg-7 py-auto">
-                <div class="featured-text px-auto" style="white-space: wrap;">
+            <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 py-auto">
+                <div class="featured-text pl-3 pr-1">
                     <h4 class="text-white">${this.poemsArray[0].title}</h4>
-                    <p class="mb-0 text-white small">${this.poemsArray[0].poem}</p>
+                    <p class="mb-0 text-white xsmall" style="font-size: 0.7rem;">${this.poemsArray[0].poem}</p>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ export default class Poems {
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p class="text-left">
+                        <p class="text-left" style="font-size: 0.7rem;">
                         ${this.poemsArray[i].poem}
                         </p>
                     </div>
@@ -123,7 +123,7 @@ export default class Poems {
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p class="text-left">
+                        <p class="text-left" style="font-size: 0.7rem;">
                         ${this.poemsArray[x].poem}
                         </p>
                     </div>
