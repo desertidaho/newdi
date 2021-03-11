@@ -4,7 +4,6 @@ export default class Poems {
   }
 
   poemsTemplate() {
-    console.log(this.poemsArray)
     let featured = `
         <!-- Featured Project Row-->
         <div class="d-flex justify-content-center mb-3">
