@@ -7,7 +7,7 @@ export default class Poems {
     let featured = `
         <!-- Featured Project Row-->
         <div class="d-flex justify-content-center mb-3">
-          <h4 style="color: orangered; text-shadow: 1px 1px gray;">Featured poem, listen now!</h4>
+          <h4 style="color: orangered; text-shadow: 1px 1px #0d0d0d;">Featured poem, listen now.</h4>
         </div>
         <div class="d-flex justify-content-center mb-4">
           <audio controls preload="auto"><source src="assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
@@ -70,9 +70,9 @@ export default class Poems {
                         ${this.poemsArray[i].poem}
                         </p>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer" style="background-color: orangered;">
                         <div class="col-sm-12 d-flex justify-content-center mt-3 mb-4">
-                            <audio controls preload="auto" style="box-shadow: 0px 0px 0px 10px orangered;"><source src="assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
+                            <audio controls preload="auto"><source src="assets/audio/${this.poemsArray[i].audio}" type="audio/wav"></audio>
                         </div>
                         <div class="col d-flex justify-content-center">
                             <a href="https://www.amazon.com/gp/product/1792611633"
@@ -127,7 +127,7 @@ export default class Poems {
                         ${this.poemsArray[x].poem}
                         </p>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer" style="background-color: orangered;">
                         <div class="col-sm-12 d-flex justify-content-center mt-3 mb-4">
                             <audio controls preload="auto" style="box-shadow: 0px 0px 0px 10px orangered;"><source src="assets/audio/${this.poemsArray[x].audio}" type="audio/wav"></audio>
                         </div>
