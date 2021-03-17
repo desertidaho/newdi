@@ -12,20 +12,6 @@ export default class Poems {
         <div class="d-flex justify-content-center mb-4">
           <audio controls preload="auto"><source src="assets/audio/${this.poemsArray[0].audio}" type="audio/wav"></audio>
         </div>
-        <div class="d-flex justify-content-center mb-4">
-            <a href="https://www.amazon.com/gp/product/1792611633"
-                target="_blank">
-                <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
-                    Buy on Amazon
-                </button>
-            </a>
-            <a href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                target="_blank">
-                <button type="button" class="btn btn-sm btn-warning shadow amazon-btn px-3 mr-4">
-                    Tip Bitcoin<i class="ml-2 py-0 fab fa-bitcoin"></i>
-                </button>
-            </a>
-        </div>
         <div class="row align-items-center gutters mb-4 mb-lg-5">
             <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-sm-0" src="assets/images/${this.poemsArray[0].img}" alt="" /></div>
             <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 py-auto">
