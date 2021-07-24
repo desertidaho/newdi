@@ -32,7 +32,7 @@ export default class Poems {
           <div class="col-lg-6 order-lg-first">
               <div class="bg-black text-center h-100 project">
                   <div class="d-flex h-100" style="background-image: linear-gradient(to top, black 10%, #262626);">
-                      <div class="project-text w-100 mt-1 mt-lg-5 text-center text-md-right">
+                      <div class="project-text w-100 mt-0 mb-3 mt-lg-5 text-center text-md-right">
                           <h4 class="text-white">${this.poemsArray[i].title}</h4>
                           <hr class="d-none d-lg-block mb-0 mr-0" />
                       </div>
@@ -90,7 +90,7 @@ export default class Poems {
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100" style="background-image: linear-gradient(to top, black 10%, #262626);">
-                        <div class="project-text w-100 mt-1 mt-lg-5 text-center text-md-left">
+                        <div class="project-text w-100 mt-0 mb-3 mt-lg-5 text-center text-md-left">
                             <h4 class="text-white">${this.poemsArray[x].title}</h4>
                             <hr class="d-none d-lg-block mb-0 ml-0" />
                         </div>
