@@ -1,6 +1,27 @@
 //Public
 export default class Poems1 {
 
+    paceOfEntropy = `
+    An Idaho summer dust storm enveloped them, again, </br>
+    Agitating their eyes and lungs, obscuring their vision,  </br>
+    Turning the blue sky sandy-brown, and </br>
+    Producing only a few raindrops </br>
+    Which did little to nourish the crops or their souls. </br>
+    It was a difficult time— </br>
+    Covid killed and terrorized,  </br>
+    People suffered from inflating fiat currencies,  </br>
+    Money buying less and less, while </br>
+    Masks and lockdowns muzzled dissent, and </br>
+    Throughout the west droughts persisted, worsened. </br>
+    Fires raged in the forests and deserts,  </br>
+    Smoke smothered the sky, </br>
+    The weather refused to cooperate with their hopes, and  </br>
+    After some time there was a darkening of spirits, and </br>
+    A growing malaise and hunger, which </br>
+    Redoubled the pace of entropy, </br>
+    Confounding the situation.
+    `
+    
     happyPeople = `
     From where I stand </br>
     Beneath the sky’s southeastern sun and water-tower, </br>
@@ -710,6 +731,7 @@ export default class Poems1 {
     poems1() {
         let data =
             [
+                { id: "pace-of-entropy", img: "paceOfEntropy.jpg", title: "Pace of Entropy", poem: this.paceOfEntropy, audio: "paceOfEntropy.wav"},
                 { id: "happy-people", img: "happyPeople.jpg", title: "Happy People", poem: this.happyPeople, audio: "happyPeople.wav" },
                 { id: "valiant-and-otherwise", img: "valiantAndOtherwise.jpg", title: "Valiant and Otherwise", poem: this.valiantAndOtherwise, audio: "valiantAndOtherwise.wav" },
                 { id: "asteroids-orbit", img: "asteroidsOrbit.jpg", title: "Asteroids Orbit", poem: this.asteroidsOrbit, audio: "asteroidsOrbit.wav" },
