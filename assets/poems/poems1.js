@@ -1,6 +1,24 @@
 //Public
 export default class Poems1 {
 
+    oceanAboveYou = `
+    Somewhere in the weaving labyrinth of dreams, </br>
+    Outside, near the long forgotten turquoise truck-bed </br>
+    Bathed in early rain and low angled silver light, </br>
+    I saw you, standing alone,  </br>
+    Wearing the brown dress that was your favorite, and </br>
+    Speaking with a person for whom I could not see. </br>
+    You were radiant, vibrant, and </br>
+    Very real to me in that moment, so much that </br>
+    I quickly lost myself to your possibility, </br>
+    Remembering the way you danced, and kissed. </br>
+    I cried out your name with all my breath, </br>
+    You turned towards me, becoming a falcon, and </br>
+    The Oregon forest was now sand, and </br>
+    I became the ocean above you.
+    `
+
+    
     paceOfEntropy = `
     An Idaho summer dust storm enveloped them, again, </br>
     Agitating their eyes and lungs, obscuring their vision,  </br>
@@ -731,6 +749,7 @@ export default class Poems1 {
     poems1() {
         let data =
             [
+                { id: "ocean-above-you", img: "oceanAboveYou.jpg", title: "Ocean Above You", poem: this.oceanAboveYou, audio: "oceanAboveYou.wav"},
                 { id: "pace-of-entropy", img: "paceOfEntropy.jpg", title: "Pace of Entropy", poem: this.paceOfEntropy, audio: "paceOfEntropy.wav"},
                 { id: "happy-people", img: "happyPeople.jpg", title: "Happy People", poem: this.happyPeople, audio: "happyPeople.wav" },
                 { id: "valiant-and-otherwise", img: "valiantAndOtherwise.jpg", title: "Valiant and Otherwise", poem: this.valiantAndOtherwise, audio: "valiantAndOtherwise.wav" },
